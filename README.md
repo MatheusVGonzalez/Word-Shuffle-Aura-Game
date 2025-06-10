@@ -1,22 +1,54 @@
-<<<<<<< HEAD
-# Word-Shuffle-Aura-Game
-=======
-# Salesforce DX Project: Next Steps
+# Word Shuffle Aura Game 🎮
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+A word puzzle game built using **Salesforce Apex**, **Lightning Aura Components**, and custom **Events** — fully integrated into the **Service Cloud** app.
 
-## How Do You Plan to Deploy Your Changes?
+## Overview
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+Word Shuffle is a interactive game where the player is given a shuffled word and must guess the correct word within a certain number of attempts.
 
-## Configure Your Salesforce DX Project
+- ⚙️ Developed with **Apex Classes**, **Aura Framework**, and **Lightning Events**
+- 🧠 3 Difficulty Modes: **Easy**, **Medium**, and **Hard**
+- 📊 Real-time game history with results (Win/Lose/In Progress)
+- 🔁 Shuffle and start new games dynamically
+- 💬 Fully integrated into **Service App**, accessible through the **Home Page**
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+## Where It Runs
 
-## Read All About It
+This game is designed to run inside **Salesforce's Service App**, embedded on the **Home Page** tab.
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
->>>>>>> d80ca4c (Finish)
+> Navigate to the **Service App > Home Tab** to start playing.
+
+## Game Features
+
+- Displays a **target word** and the number of **moves left**
+- Supports three game modes:
+  - 🟢 Easy
+  - 🟡 Medium
+  - 🔴 Hard
+- Keeps a **game log** on the right panel with:
+  - Game Number
+  - Mode
+  - Date Played
+  - Result
+
+## Technologies Used
+
+- **Apex** – for backend logic and controller classes
+- **Lightning Aura Components** – for UI and interaction
+- **Component Events** – for communication between nested components
+- **Lightning App Builder** – to embed the component into the Service Console
+- **Custom Metadata & Objects** – to store game history
+
+
+## How to Use
+
+1. Open the **Service App** in Salesforce.
+2. Click on the **Home Tab**.
+3. Choose a difficulty mode.
+4. Click **"Start New Game"**.
+5. Try to guess the word using limited moves!
+6. Track your results in the **game log** on the right.
+
+--- 
+Project developed during Salesforce Developer certification at The Complete Salesforce Development Course - 2024 updates) - with Professor Manish Choudhari
+-- Matheus Verissimo Gonzalez (https://github.com/MatheusVGonzalez)
