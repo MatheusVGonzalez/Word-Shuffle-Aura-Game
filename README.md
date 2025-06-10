@@ -51,4 +51,5 @@ This game is designed to run inside **Salesforce's Service App**, embedded on th
 
 --- 
 Project developed during Salesforce Developer certification at The Complete Salesforce Development Course - 2024 updates) - with Professor Manish Choudhari
+
 -- Matheus Verissimo Gonzalez (https://github.com/MatheusVGonzalez)
