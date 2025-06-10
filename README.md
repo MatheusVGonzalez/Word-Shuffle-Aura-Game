@@ -1,4 +1,5 @@
 # Word Shuffle Aura Game 🎮
+![image](https://github.com/user-attachments/assets/b3c69456-e232-417b-ae60-c4ceb0ea70c9)
 
 A word puzzle game built using **Salesforce Apex**, **Lightning Aura Components**, and custom **Events** — fully integrated into the **Service Cloud** app.
 
